@@ -1,6 +1,6 @@
 FROM index.alauda.cn/waxiangzi/alpine-ruby
 
 WORKDIR /
-ADD ./prog2 /
+ADD . /
 RUN /bin/sh -c /startup.sh
 
