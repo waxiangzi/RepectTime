@@ -1,3 +1,3 @@
 FROM index.alauda.cn/waxiangzi/alpine-ruby
 
-add ./prog2 /
+ADD ./prog2 /
