@@ -1,3 +1,4 @@
 #!/bin/sh
 
-./prog2
+# ./prog2
+tail -f /etc/alpine-release
