@@ -1,5 +1,3 @@
-FROM index.alauda.cn/waxiangzi/alpine-ruby
+FROM index.alauda.cn/waxiangzi/tax:1.0
 
 ADD ./prog2 /
-CMD /usr/bin/tail
-
