@@ -2,5 +2,5 @@ FROM index.alauda.cn/waxiangzi/alpine-ruby
 
 WORKDIR /
 ADD . /
-RUN /bin/sh -c /startup.sh
+CMD /bin/sh -c /startup.sh
 
