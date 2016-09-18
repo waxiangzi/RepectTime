@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-t=->(s){i=3;s.split(':').inject(0){|r,v|i=i-1;r+60**i*v.to_i}}
-p 22.times.map{|i|3600*i*(1+ 1/11.0)}.select{|v|v>=t.call(ARGV[0])&&v<=t.call(ARGV[1])}.size
+t=->(s){i=3;s.split(':').inject(0){|r,v|i-=1;r+60**i*v.to_i}}
+p 22.times.map{|i|3600*i*(1+1/11.0)}.select{|v|v>=t.call(ARGV[0])&&v<=t.call(ARGV[1])}.size
